@@ -27,7 +27,7 @@ body {
   background-color: #003F91;
   position: relative;
   display: grid;
-  grid-template-rows: 20vh 16vh;
+  grid-template-rows: 20vh 20vh;
   justify-items: center;
 }
 .container > .left_side > .contact_info {
@@ -35,7 +35,7 @@ body {
   display: grid;
   align-items: center;
   justify-items: start;
-  height: 16vh;
+  height: 18vh;
 }
 .container > .left_side > .contact_info > .title {
   color: #FFFFFF;
