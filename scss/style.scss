@@ -38,6 +38,8 @@ body{
     margin: 50px;
     grid-template-columns: 1fr 2fr;
 
+    
+
 
     >.left_side{
 
@@ -46,6 +48,7 @@ body{
         display: grid;
         grid-auto-flow: row;
         justify-items: center;
+    
 
         >.profile_header{
             display: grid;
