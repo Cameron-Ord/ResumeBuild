@@ -46,9 +46,51 @@ body{
         background-color: #003F91;
         position: relative;
         display: grid;
-        grid-auto-flow: row;
+        grid-template-rows: 20vh 16vh ;
         justify-items: center;
-    
+
+        >.contact_info{
+
+            width: 100%;
+            display: grid;
+            align-items: center;
+            justify-items: start;
+            height: 16vh;
+
+            >.title{
+
+                color: #FFFFFF;
+                margin-left: 25px;
+                border-bottom: 1px solid #FFFFFF;
+                margin-bottom: 15px;
+            }
+
+            >u1{
+
+                >li{
+
+                    list-style: none;
+                    margin: 10px 0;
+
+
+                    >.text{
+
+                    
+                       
+                        color: #FFFFFF;
+                    }
+
+                    >.icon{
+
+                        margin-left: 15px;
+                        display: inline-block;
+                        width: 30px;
+                        font-size: 18px;
+                        color: #5DA9E9;
+                    }
+                }
+            }
+        }
 
         >.profile_header{
             display: grid;
