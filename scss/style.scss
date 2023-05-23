@@ -46,8 +46,121 @@ body{
         background-color: #003F91;
         position: relative;
         display: grid;
-        grid-template-rows: 20vh 20vh ;
+        grid-template-rows: 1fr 1fr 1fr 12vh 1fr;
         justify-items: center;
+
+
+
+        >.certifications{
+            width: 100%;
+            display: grid;
+            align-items: center;
+            justify-items: start;
+
+            >.title{
+
+                font-size: 1.6em;
+                color: #FFFFFF;
+                margin-left: 25px;
+                border-bottom: 1px solid #FFFFFF;
+
+            }
+
+            >u1{
+
+                display: grid;
+                grid-template-rows: 5vh 5vh;
+
+                >li{
+                color: #FFFFFF;
+
+                margin-left: 25px;
+
+                list-style: none;
+
+                >h3{
+
+
+                }
+                >h4{
+
+                    margin-top: 10px;
+                }
+
+                }
+            }
+        }
+
+
+        >.languages{
+            width: 100%;
+            display: grid;
+            align-items: center;
+            justify-items: start;
+            
+
+            >.title{
+
+                font-size: 1.6em;
+                color: #FFFFFF;
+                margin-left: 25px;
+                border-bottom: 1px solid #FFFFFF;
+
+            }
+            >u1{
+             
+                >li{
+
+                    color: #FFFFFF;
+
+                    margin-left: 25px;
+
+                    list-style: none;
+
+                    >h4{
+
+                        font-size: 1.25em;
+           
+                    }
+                }
+            }
+
+        }
+
+        >.education{
+
+            width: 100%;
+            display: grid;
+            align-items: center;
+            justify-items: start;
+
+            >.title{
+                font-size: 1.6em;
+                color: #FFFFFF;
+                margin-left: 25px;
+                border-bottom: 1px solid #FFFFFF;
+            }
+            >u1{
+
+                display: grid;
+                grid-template-rows: 6vh 6vh;
+                
+
+                >li{
+
+                    color: #FFFFFF;
+                    margin-left: 25px;
+                    list-style: none;
+                    align-items: center;
+                    justify-items: start;
+                    display: grid;
+
+                    
+                    
+                }
+            }
+
+        }
 
         >.contact_info{
 
@@ -58,7 +171,7 @@ body{
             height: 18vh;
 
             >.title{
-
+                font-size: 1.6em;
                 color: #FFFFFF;
                 margin-left: 25px;
                 border-bottom: 1px solid #FFFFFF;
@@ -71,6 +184,8 @@ body{
 
                     list-style: none;
                     margin: 10px 0;
+                    align-items: center;
+                    justify-items: start;
 
 
                     >.text{
@@ -81,7 +196,7 @@ body{
                     }
 
                     >.icon{
-
+                        justify-self: start;
                         margin-left: 15px;
                         display: inline-block;
                         width: 30px;

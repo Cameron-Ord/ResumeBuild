@@ -27,8 +27,76 @@ body {
   background-color: #003F91;
   position: relative;
   display: grid;
-  grid-template-rows: 20vh 20vh;
+  grid-template-rows: 1fr 1fr 1fr 12vh 1fr;
   justify-items: center;
+}
+.container > .left_side > .certifications {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: start;
+}
+.container > .left_side > .certifications > .title {
+  font-size: 1.6em;
+  color: #FFFFFF;
+  margin-left: 25px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.container > .left_side > .certifications > u1 {
+  display: grid;
+  grid-template-rows: 5vh 5vh;
+}
+.container > .left_side > .certifications > u1 > li {
+  color: #FFFFFF;
+  margin-left: 25px;
+  list-style: none;
+}
+.container > .left_side > .certifications > u1 > li > h4 {
+  margin-top: 10px;
+}
+.container > .left_side > .languages {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: start;
+}
+.container > .left_side > .languages > .title {
+  font-size: 1.6em;
+  color: #FFFFFF;
+  margin-left: 25px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.container > .left_side > .languages > u1 > li {
+  color: #FFFFFF;
+  margin-left: 25px;
+  list-style: none;
+}
+.container > .left_side > .languages > u1 > li > h4 {
+  font-size: 1.25em;
+}
+.container > .left_side > .education {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: start;
+}
+.container > .left_side > .education > .title {
+  font-size: 1.6em;
+  color: #FFFFFF;
+  margin-left: 25px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.container > .left_side > .education > u1 {
+  display: grid;
+  grid-template-rows: 6vh 6vh;
+}
+.container > .left_side > .education > u1 > li {
+  color: #FFFFFF;
+  margin-left: 25px;
+  list-style: none;
+  align-items: center;
+  justify-items: start;
+  display: grid;
 }
 .container > .left_side > .contact_info {
   width: 100%;
@@ -38,6 +106,7 @@ body {
   height: 18vh;
 }
 .container > .left_side > .contact_info > .title {
+  font-size: 1.6em;
   color: #FFFFFF;
   margin-left: 25px;
   border-bottom: 1px solid #FFFFFF;
@@ -46,11 +115,14 @@ body {
 .container > .left_side > .contact_info > u1 > li {
   list-style: none;
   margin: 10px 0;
+  align-items: center;
+  justify-items: start;
 }
 .container > .left_side > .contact_info > u1 > li > .text {
   color: #FFFFFF;
 }
 .container > .left_side > .contact_info > u1 > li > .icon {
+  justify-self: start;
   margin-left: 15px;
   display: inline-block;
   width: 30px;
