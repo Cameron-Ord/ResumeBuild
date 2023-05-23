@@ -37,10 +37,11 @@ body {
   justify-items: start;
 }
 .container > .left_side > .certifications > .title {
-  font-size: 1.6em;
+  font-size: 1.2em;
   color: #FFFFFF;
   margin-left: 25px;
   border-bottom: 1px solid #FFFFFF;
+  text-transform: uppercase;
 }
 .container > .left_side > .certifications > u1 {
   display: grid;
@@ -61,10 +62,11 @@ body {
   justify-items: start;
 }
 .container > .left_side > .languages > .title {
-  font-size: 1.6em;
+  font-size: 1.2em;
   color: #FFFFFF;
   margin-left: 25px;
   border-bottom: 1px solid #FFFFFF;
+  text-transform: uppercase;
 }
 .container > .left_side > .languages > u1 > li {
   color: #FFFFFF;
@@ -81,10 +83,11 @@ body {
   justify-items: start;
 }
 .container > .left_side > .education > .title {
-  font-size: 1.6em;
+  font-size: 1.2em;
   color: #FFFFFF;
   margin-left: 25px;
   border-bottom: 1px solid #FFFFFF;
+  text-transform: uppercase;
 }
 .container > .left_side > .education > u1 {
   display: grid;
@@ -103,14 +106,14 @@ body {
   display: grid;
   align-items: center;
   justify-items: start;
-  height: 18vh;
 }
 .container > .left_side > .contact_info > .title {
-  font-size: 1.6em;
+  font-size: 1.2em;
   color: #FFFFFF;
   margin-left: 25px;
   border-bottom: 1px solid #FFFFFF;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 .container > .left_side > .contact_info > u1 > li {
   list-style: none;
@@ -133,18 +136,16 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  height: 15vh;
-  width: 85%;
-  border-bottom: 1px solid #FFFFFF;
+  width: 100%;
 }
 .container > .left_side > .profile_header > .pushoff {
-  margin-top: 50px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.4em;
   font-size: 1.5em;
   color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
 }
 .container > .left_side > .profile_header > .pushoff > span {
   font-size: 0.8em;
