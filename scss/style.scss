@@ -73,13 +73,22 @@ body{
                 display: grid;
 
                 margin-left: 25px;
+                
 
 
                 >h4{
 
                     color: #FFFFFF;
 
+                    text-transform: uppercase;
 
+                    margin-bottom: 5px;
+
+                }
+
+                >.text{
+
+                    font-size: 0.8em;
                 }
             }
         
@@ -161,12 +170,12 @@ body{
 
                         text-transform: uppercase;
                     
-                        font-size: 1.1em;
+                        font-size: 1em;
                     }
 
                     >.year{
 
-                        font-size: 1em;
+                        font-size: 0.9em;
 
                         color: #5DA9E9;
 

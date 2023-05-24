@@ -50,6 +50,11 @@ body {
 }
 .container > .left_side > .certifications > div > h4 {
   color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.container > .left_side > .certifications > div > .text {
+  font-size: 0.8em;
 }
 .container > .left_side > .languages {
   width: 100%;
@@ -101,10 +106,10 @@ body {
 .container > .left_side > .education > u1 > li > .school {
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 .container > .left_side > .education > u1 > li > .year {
-  font-size: 1em;
+  font-size: 0.9em;
   color: #5DA9E9;
 }
 .container > .left_side > .contact_info {
