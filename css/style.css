@@ -220,6 +220,21 @@ body {
   align-items: start;
   text-align: start;
   margin-left: 50px;
+  grid-template-rows: 5vh 1fr;
+}
+.container > .right_side > .experience > .job_div > .title_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10vw 15vw;
+  align-items: center;
+  justify-items: start;
+}
+.container > .right_side > .experience > .job_div > .title_container > h4 {
+  font-size: 1.2em;
+  color: #5DA9E9;
+}
+.container > .right_side > .experience > .job_div > .title_container > p {
+  color: #5DA9E9;
 }
 
 /*# sourceMappingURL=style.css.map */

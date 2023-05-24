@@ -357,6 +357,27 @@ body{
 
                 margin-left: 50px;
 
+                grid-template-rows: 5vh 1fr;
+
+                >.title_container{
+
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: 10vw 15vw;
+                    align-items: center;
+                    justify-items: start;
+
+                    >h4{
+
+                        font-size: 1.2em;
+                        color: #5DA9E9;
+                    }
+                    >p{
+
+                        color: #5DA9E9;
+
+                    }
+                }
             }
 
         }
