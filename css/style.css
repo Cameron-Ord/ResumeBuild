@@ -151,5 +151,75 @@ body {
   font-size: 0.8em;
   font-weight: 300;
 }
+.container > .right_side {
+  position: relative;
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.container > .right_side > .skills {
+  display: grid;
+  align-items: center;
+  justify-items: start;
+  width: 100%;
+}
+.container > .right_side > .skills > .title {
+  color: #003F91;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 1.4em;
+}
+.container > .right_side > .skills > u1 {
+  display: grid;
+  grid-template-rows: 3vh 3vh 3vh 3vh 3vh 3vh;
+}
+.container > .right_side > .skills > u1 > li {
+  margin-left: 50px;
+  list-style: none;
+}
+.container > .right_side > .profile {
+  display: grid;
+  align-items: center;
+  justify-items: start;
+  width: 100%;
+}
+.container > .right_side > .profile > .title {
+  color: #003F91;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 1.4em;
+}
+.container > .right_side > .profile > .text_span {
+  width: 80%;
+  display: grid;
+  justify-items: start;
+  align-items: start;
+  text-align: start;
+  margin-left: 50px;
+}
+.container > .right_side > .experience {
+  display: grid;
+  align-items: center;
+  justify-items: start;
+  width: 100%;
+}
+.container > .right_side > .experience > .title {
+  color: #003F91;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 1.4em;
+}
+.container > .right_side > .experience > .job_div {
+  width: 80%;
+  display: grid;
+  justify-items: start;
+  align-items: start;
+  text-align: start;
+  margin-left: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
