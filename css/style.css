@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: whitesmoke;
+  background-color: black;
 }
 
 .container {
@@ -35,7 +35,7 @@ body {
   display: grid;
   align-items: center;
   justify-items: start;
-  grid-template-rows: 5vh 5vh;
+  grid-template-rows: 5vh 8vh;
 }
 .container > .left_side > .certifications > .title {
   font-size: 1.2em;
@@ -53,7 +53,16 @@ body {
   text-transform: uppercase;
   margin-bottom: 5px;
 }
-.container > .left_side > .certifications > div > .text {
+.container > .left_side > .certifications > div > span {
+  display: grid;
+  grid-template-columns: 6vw 5vw;
+}
+.container > .left_side > .certifications > div > span > .text {
+  color: #FFFFFF;
+  font-size: 0.8em;
+}
+.container > .left_side > .certifications > div > span > .text_2 {
+  color: #5DA9E9;
   font-size: 0.8em;
 }
 .container > .left_side > .languages {
@@ -76,6 +85,7 @@ body {
 }
 .container > .left_side > .languages > u1 > li > h4 {
   font-size: 1em;
+  color: #5DA9E9;
   text-transform: uppercase;
 }
 .container > .left_side > .education {
@@ -117,6 +127,7 @@ body {
   display: grid;
   align-items: center;
   justify-items: start;
+  grid-template-rows: 5vh 15vh;
 }
 .container > .left_side > .contact_info > .title {
   font-size: 1.2em;
@@ -167,13 +178,14 @@ body {
   display: grid;
   justify-items: start;
   align-items: center;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 30vh 10vh 30vh 5vh;
 }
 .container > .right_side > .skills {
   display: grid;
   align-items: center;
   justify-items: start;
   width: 100%;
+  grid-template-columns: 1fr 1fr;
 }
 .container > .right_side > .skills > .title {
   color: #003F91;
@@ -181,14 +193,35 @@ body {
   margin-bottom: 10px;
   font-weight: 900;
   font-size: 1.4em;
+  border-bottom: 1px solid #003F91;
+  text-transform: uppercase;
 }
-.container > .right_side > .skills > u1 {
+.container > .right_side > .skills_spans {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.container > .right_side > .skills_spans > .coding_skills > u1 {
   display: grid;
   grid-template-rows: 3vh 3vh 3vh 3vh 3vh 3vh;
 }
-.container > .right_side > .skills > u1 > li {
+.container > .right_side > .skills_spans > .coding_skills > u1 > li {
   margin-left: 50px;
   list-style: none;
+}
+.container > .right_side > .skills_spans > .coding_skills > u1 > li > h4 {
+  color: #0D1B2A;
+}
+.container > .right_side > .skills_spans > .retail_skills > u1 {
+  display: grid;
+  grid-template-rows: 3vh 3vh 3vh 3vh 3vh 3vh 3vh;
+}
+.container > .right_side > .skills_spans > .retail_skills > u1 > li {
+  list-style: none;
+  margin-left: 50px;
+}
+.container > .right_side > .skills_spans > .retail_skills > u1 > li > h4 {
+  color: #0D1B2A;
 }
 .container > .right_side > .profile {
   display: grid;
@@ -202,6 +235,8 @@ body {
   margin-bottom: 10px;
   font-weight: 900;
   font-size: 1.4em;
+  border-bottom: 1px solid #003F91;
+  text-transform: uppercase;
 }
 .container > .right_side > .profile > .text_span {
   width: 80%;
@@ -210,6 +245,9 @@ body {
   align-items: start;
   text-align: start;
   margin-left: 50px;
+}
+.container > .right_side > .profile > .text_span > p {
+  color: #0D1B2A;
 }
 .container > .right_side > .experience {
   display: grid;
@@ -223,6 +261,8 @@ body {
   margin-bottom: 10px;
   font-weight: 900;
   font-size: 1.4em;
+  border-bottom: 1px solid #003F91;
+  text-transform: uppercase;
 }
 .container > .right_side > .experience > .job_div {
   width: 80%;
@@ -231,21 +271,27 @@ body {
   align-items: start;
   text-align: start;
   margin-left: 50px;
-  grid-template-rows: 5vh 1fr;
+  grid-template-rows: 8vh 1fr;
+}
+.container > .right_side > .experience > .job_div > p {
+  color: #0D1B2A;
 }
 .container > .right_side > .experience > .job_div > .title_container {
   width: 100%;
   display: grid;
-  grid-template-columns: 10vw 15vw;
   align-items: center;
   justify-items: start;
 }
 .container > .right_side > .experience > .job_div > .title_container > h4 {
   font-size: 1.2em;
-  color: #5DA9E9;
+  color: #0D1B2A;
+}
+.container > .right_side > .experience > .job_div > .title_container > h5 {
+  color: #003F91;
 }
 .container > .right_side > .experience > .job_div > .title_container > p {
-  color: #5DA9E9;
+  color: #0D1B2A;
+  font-size: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */

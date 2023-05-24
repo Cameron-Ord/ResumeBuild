@@ -20,7 +20,7 @@ body{
 
     min-height: 100vh;
 
-    background-color: whitesmoke;
+    background-color: black;
     
 
 
@@ -56,7 +56,7 @@ body{
             display: grid;
             align-items: center;
             justify-items: start;
-            grid-template-rows: 5vh 5vh;
+            grid-template-rows: 5vh 8vh;
            
             >.title{
 
@@ -74,8 +74,6 @@ body{
 
                 margin-left: 25px;
                 
-
-
                 >h4{
 
                     color: #FFFFFF;
@@ -86,10 +84,30 @@ body{
 
                 }
 
-                >.text{
+                >span{
+                    display: grid;
 
-                    font-size: 0.8em;
+                   
+                    grid-template-columns: 6vw 5vw;
+
+                    >.text{
+
+                        color: #FFFFFF;
+    
+                        font-size: 0.8em;
+                    }
+
+                    >.text_2{
+
+                        color: #5DA9E9;
+    
+                        font-size: 0.8em;
+                    }
+
+
                 }
+
+
             }
         
 
@@ -126,6 +144,8 @@ body{
                     >h4{
 
                         font-size: 1em;
+
+                        color: #5DA9E9;
           
                         text-transform: uppercase;
                         
@@ -193,7 +213,7 @@ body{
             display: grid;
             align-items: center;
             justify-items: start;
-            
+            grid-template-rows: 5vh 15vh;
 
             >.title{
                 font-size: 1.2em;
@@ -269,7 +289,7 @@ body{
         display: grid;
         justify-items: start;
         align-items: center;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 30vh 10vh 30vh 5vh;
         
         >.skills{
 
@@ -277,6 +297,8 @@ body{
             align-items: center;
             justify-items: start;
             width: 100%;
+            grid-template-columns: 1fr 1fr;
+
 
             >.title{
 
@@ -289,22 +311,64 @@ body{
                 font-weight: 900;
 
                 font-size: 1.4em;
+
+                border-bottom: 1px solid #003F91;
+
+                text-transform: uppercase;
             }
 
-            >u1{
+        }
 
-                display: grid;
+        >.skills_spans{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
 
-                grid-template-rows: 3vh 3vh 3vh 3vh 3vh 3vh;
+            >.coding_skills{
 
-                >li{
+                >u1{
 
-                    margin-left: 50px;
+                    display: grid;
+    
+                    grid-template-rows: 3vh 3vh 3vh 3vh 3vh 3vh;
+    
+                    >li{
+    
+                        margin-left: 50px;
+    
+                        list-style: none;
+                        >h4{
 
-                    list-style: none;
-
+                            color: #0D1B2A;
+                        }
+    
+                    }
                 }
+
+
             }
+
+            >.retail_skills{
+                >u1{
+
+                    display: grid;
+    
+                    grid-template-rows: 3vh 3vh 3vh 3vh 3vh 3vh 3vh;
+    
+                    >li{
+    
+                        list-style: none;
+
+                        margin-left: 50px;
+    
+                        >h4{
+                            color: #0D1B2A;
+                        }
+                    }
+                }
+
+            }
+
 
         }
         
@@ -326,6 +390,10 @@ body{
 
                 font-size: 1.4em;
 
+                border-bottom: 1px solid #003F91;
+
+                text-transform: uppercase;
+
             }
 
             >.text_span{
@@ -341,6 +409,11 @@ body{
                 text-align: start;
 
                 margin-left: 50px;
+
+                >p{
+
+                    color: #0D1B2A;
+                }
             }
         }
 
@@ -363,6 +436,10 @@ body{
 
                 font-size: 1.4em;
 
+                border-bottom: 1px solid #003F91;
+
+                text-transform: uppercase;
+
             }
 
             >.job_div{
@@ -379,24 +456,35 @@ body{
 
                 margin-left: 50px;
 
-                grid-template-rows: 5vh 1fr;
+                grid-template-rows: 8vh 1fr;
+
+                >p{
+
+                    color: #0D1B2A;
+                }
 
                 >.title_container{
 
                     width: 100%;
                     display: grid;
-                    grid-template-columns: 10vw 15vw;
                     align-items: center;
                     justify-items: start;
 
                     >h4{
 
                         font-size: 1.2em;
-                        color: #5DA9E9;
+                        color: #0D1B2A;
+                    }
+
+                    >h5{
+
+                        color: #003F91;
+
                     }
                     >p{
 
-                        color: #5DA9E9;
+                        color: #0D1B2A;
+                        font-size: 1em;
 
                     }
                 }
