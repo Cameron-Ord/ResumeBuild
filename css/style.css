@@ -35,6 +35,7 @@ body {
   display: grid;
   align-items: center;
   justify-items: start;
+  grid-template-rows: 5vh 5vh;
 }
 .container > .left_side > .certifications > .title {
   font-size: 1.2em;
@@ -43,17 +44,12 @@ body {
   border-bottom: 1px solid #FFFFFF;
   text-transform: uppercase;
 }
-.container > .left_side > .certifications > u1 {
+.container > .left_side > .certifications > div {
   display: grid;
-  grid-template-rows: 5vh 5vh;
-}
-.container > .left_side > .certifications > u1 > li {
-  color: #FFFFFF;
   margin-left: 25px;
-  list-style: none;
 }
-.container > .left_side > .certifications > u1 > li > h4 {
-  margin-top: 10px;
+.container > .left_side > .certifications > div > h4 {
+  color: #FFFFFF;
 }
 .container > .left_side > .languages {
   width: 100%;
@@ -74,7 +70,8 @@ body {
   list-style: none;
 }
 .container > .left_side > .languages > u1 > li > h4 {
-  font-size: 1.25em;
+  font-size: 1em;
+  text-transform: uppercase;
 }
 .container > .left_side > .education {
   width: 100%;
@@ -91,7 +88,7 @@ body {
 }
 .container > .left_side > .education > u1 {
   display: grid;
-  grid-template-rows: 6vh 6vh;
+  grid-template-rows: 8vh 8vh;
 }
 .container > .left_side > .education > u1 > li {
   color: #FFFFFF;
@@ -100,6 +97,15 @@ body {
   align-items: center;
   justify-items: start;
   display: grid;
+}
+.container > .left_side > .education > u1 > li > .school {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+.container > .left_side > .education > u1 > li > .year {
+  font-size: 1em;
+  color: #5DA9E9;
 }
 .container > .left_side > .contact_info {
   width: 100%;
