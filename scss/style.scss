@@ -20,7 +20,7 @@ body{
 
     min-height: 100vh;
 
-    background-color: black;
+    background-color: whitesmoke;
     
 
 
@@ -85,16 +85,19 @@ body{
                 }
 
                 >span{
+
                     display: grid;
 
-                   
-                    grid-template-columns: 6vw 5vw;
+                    grid-template-columns: 4vw 5vw;
 
                     >.text{
 
                         color: #FFFFFF;
     
                         font-size: 0.8em;
+
+                        margin-top: 10px;
+                        
                     }
 
                     >.text_2{
@@ -102,6 +105,10 @@ body{
                         color: #5DA9E9;
     
                         font-size: 0.8em;
+
+                        margin-top: 10px;
+
+                        
                     }
 
 
@@ -168,12 +175,10 @@ body{
                 margin-left: 25px;
                 border-bottom: 1px solid #FFFFFF;
                 text-transform: uppercase;
+                margin-bottom: 10pxcd;
             }
             >u1{
 
-                display: grid;
-
-                grid-template-rows: 8vh 8vh;
 
                 >li{
 
@@ -183,6 +188,7 @@ body{
                     align-items: center;
                     justify-items: start;
                     display: grid;
+                    grid-template-rows: 4vh 4vh;
 
                     >.school{
 
@@ -213,7 +219,7 @@ body{
             display: grid;
             align-items: center;
             justify-items: start;
-            grid-template-rows: 5vh 15vh;
+            grid-template-rows: 5vh 12vh;
 
             >.title{
                 font-size: 1.2em;
@@ -289,7 +295,7 @@ body{
         display: grid;
         justify-items: start;
         align-items: center;
-        grid-template-rows: 30vh 10vh 30vh 5vh;
+        grid-template-rows: 30vh 25vh 30vh;
         
         >.skills{
 
@@ -297,29 +303,11 @@ body{
             align-items: center;
             justify-items: start;
             width: 100%;
-            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 15vh 10vh;
 
 
-            >.title{
-
-                color: #003F91;
-
-                margin-left: 50px;
-
-                margin-bottom: 10px;
-
-                font-weight: 900;
-
-                font-size: 1.4em;
-
-                border-bottom: 1px solid #003F91;
-
-                text-transform: uppercase;
-            }
-
-        }
-
-        >.skills_spans{
+        
+            >.skills_spans{
             display: grid;
             grid-template-columns: 1fr 1fr;
             width: 100%;
@@ -334,7 +322,7 @@ body{
     
                     >li{
     
-                        margin-left: 50px;
+                        margin-left: 55px;
     
                         list-style: none;
                         >h4{
@@ -353,13 +341,13 @@ body{
 
                     display: grid;
     
-                    grid-template-rows: 3vh 3vh 3vh 3vh 3vh 3vh 3vh;
+                    grid-template-rows: 3vh 3vh 3vh 3vh 3vh;
     
                     >li{
     
                         list-style: none;
 
-                        margin-left: 50px;
+                        margin-left: 55px;
     
                         >h4{
                             color: #0D1B2A;
@@ -371,6 +359,39 @@ body{
 
 
         }
+
+            >span{
+                display: grid;
+                align-items: center;
+                justify-items: start;
+                width: 100%;
+                grid-template-columns: 1fr 1fr;
+
+                >.title{
+
+                    color: #003F91;
+    
+                    margin-left: 50px;
+    
+                    margin-bottom: 10px;
+    
+                    font-weight: 900;
+    
+                    font-size: 1.4em;
+    
+                    border-bottom: 1px solid #003F91;
+    
+                    text-transform: uppercase;
+                }
+            }
+
+
+
+        
+
+        }
+
+
         
         >.profile{
             display: grid;

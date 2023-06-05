@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: black;
+  background-color: whitesmoke;
 }
 
 .container {
@@ -55,15 +55,17 @@ body {
 }
 .container > .left_side > .certifications > div > span {
   display: grid;
-  grid-template-columns: 6vw 5vw;
+  grid-template-columns: 4vw 5vw;
 }
 .container > .left_side > .certifications > div > span > .text {
   color: #FFFFFF;
   font-size: 0.8em;
+  margin-top: 10px;
 }
 .container > .left_side > .certifications > div > span > .text_2 {
   color: #5DA9E9;
   font-size: 0.8em;
+  margin-top: 10px;
 }
 .container > .left_side > .languages {
   width: 100%;
@@ -100,10 +102,7 @@ body {
   margin-left: 25px;
   border-bottom: 1px solid #FFFFFF;
   text-transform: uppercase;
-}
-.container > .left_side > .education > u1 {
-  display: grid;
-  grid-template-rows: 8vh 8vh;
+  margin-bottom: 10pxcd;
 }
 .container > .left_side > .education > u1 > li {
   color: #FFFFFF;
@@ -112,6 +111,7 @@ body {
   align-items: center;
   justify-items: start;
   display: grid;
+  grid-template-rows: 4vh 4vh;
 }
 .container > .left_side > .education > u1 > li > .school {
   font-weight: 900;
@@ -127,7 +127,7 @@ body {
   display: grid;
   align-items: center;
   justify-items: start;
-  grid-template-rows: 5vh 15vh;
+  grid-template-rows: 5vh 12vh;
 }
 .container > .left_side > .contact_info > .title {
   font-size: 1.2em;
@@ -178,16 +178,50 @@ body {
   display: grid;
   justify-items: start;
   align-items: center;
-  grid-template-rows: 30vh 10vh 30vh 5vh;
+  grid-template-rows: 30vh 25vh 30vh;
 }
 .container > .right_side > .skills {
   display: grid;
   align-items: center;
   justify-items: start;
   width: 100%;
+  grid-template-rows: 15vh 10vh;
+}
+.container > .right_side > .skills > .skills_spans {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.container > .right_side > .skills > .skills_spans > .coding_skills > u1 {
+  display: grid;
+  grid-template-rows: 3vh 3vh 3vh 3vh 3vh 3vh;
+}
+.container > .right_side > .skills > .skills_spans > .coding_skills > u1 > li {
+  margin-left: 55px;
+  list-style: none;
+}
+.container > .right_side > .skills > .skills_spans > .coding_skills > u1 > li > h4 {
+  color: #0D1B2A;
+}
+.container > .right_side > .skills > .skills_spans > .retail_skills > u1 {
+  display: grid;
+  grid-template-rows: 3vh 3vh 3vh 3vh 3vh;
+}
+.container > .right_side > .skills > .skills_spans > .retail_skills > u1 > li {
+  list-style: none;
+  margin-left: 55px;
+}
+.container > .right_side > .skills > .skills_spans > .retail_skills > u1 > li > h4 {
+  color: #0D1B2A;
+}
+.container > .right_side > .skills > span {
+  display: grid;
+  align-items: center;
+  justify-items: start;
+  width: 100%;
   grid-template-columns: 1fr 1fr;
 }
-.container > .right_side > .skills > .title {
+.container > .right_side > .skills > span > .title {
   color: #003F91;
   margin-left: 50px;
   margin-bottom: 10px;
@@ -195,33 +229,6 @@ body {
   font-size: 1.4em;
   border-bottom: 1px solid #003F91;
   text-transform: uppercase;
-}
-.container > .right_side > .skills_spans {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 100%;
-}
-.container > .right_side > .skills_spans > .coding_skills > u1 {
-  display: grid;
-  grid-template-rows: 3vh 3vh 3vh 3vh 3vh 3vh;
-}
-.container > .right_side > .skills_spans > .coding_skills > u1 > li {
-  margin-left: 50px;
-  list-style: none;
-}
-.container > .right_side > .skills_spans > .coding_skills > u1 > li > h4 {
-  color: #0D1B2A;
-}
-.container > .right_side > .skills_spans > .retail_skills > u1 {
-  display: grid;
-  grid-template-rows: 3vh 3vh 3vh 3vh 3vh 3vh 3vh;
-}
-.container > .right_side > .skills_spans > .retail_skills > u1 > li {
-  list-style: none;
-  margin-left: 50px;
-}
-.container > .right_side > .skills_spans > .retail_skills > u1 > li > h4 {
-  color: #0D1B2A;
 }
 .container > .right_side > .profile {
   display: grid;
