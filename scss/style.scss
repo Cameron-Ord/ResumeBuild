@@ -295,8 +295,112 @@ body{
         display: grid;
         justify-items: start;
         align-items: center;
-        grid-template-rows: 30vh 25vh 30vh;
+        grid-template-rows: 20vh 26vh 25vh 25vh;
         
+
+        >.achievements{
+
+            display: grid;
+            align-items: center;
+            justify-items: start;
+            width: 100%;
+
+       
+
+            >span{
+                margin-top: 15px;
+                margin-bottom: 15px;
+                display: grid;
+                align-items: center;
+                justify-items: start;
+                width: 100%;
+
+
+                >.title{
+
+                    color: #003F91;
+    
+                    margin-left: 50px;
+    
+                    margin-bottom: 10px;
+    
+                    font-weight: 900;
+    
+                    font-size: 1.4em;
+    
+                    border-bottom: 1px solid #003F91;
+    
+                    text-transform: uppercase;
+                }
+            }
+
+            >.projects{
+
+                display: grid;
+                align-items: center;
+                justify-items: start;
+                width: 100%;
+            
+        
+                
+
+                >ul{
+                    display: grid;
+                    align-items: center;
+                    justify-items: start;
+                    width: 100%;
+
+
+                    >li{
+                        display: grid;
+                        align-items: center;
+                        justify-items: start;
+                        width: 100%;
+                        margin-left: 50px;
+                        >.main{
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            display: grid;
+                            grid-template-columns: 12vw 20vw;
+                            text-align: start;
+                            >p{
+                                width: 90%;
+
+                                color: #0D1B2A;
+                                font-size: 1em;
+                            }
+                    
+                            >h4{
+                             
+                                color: #0D1B2A;
+
+                            }
+                        }
+                        >.second{
+                            display: grid;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            grid-template-columns: 12vw 20vw;
+                            >h4{
+                                color: #0D1B2A;
+             
+                            }
+
+                            >p{
+                                
+                                color: #0D1B2A;
+           
+
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+
         >.skills{
 
             display: grid;
